@@ -26,7 +26,7 @@ Este projeto foi desenvolvido como parte dos meus estudos em Python e tem como o
 
 ## 🚀 Como Executar
 
-1. **Clone o repositório:**
+1. **Clone o repositório em sua maquina:**
    ```bash
    git clone https://github.com/seu-usuario/seu-repo.git
-   cd seu-repo
+   cd "seu-repositorio"
