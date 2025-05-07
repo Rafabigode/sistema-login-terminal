@@ -3,7 +3,7 @@ senha1 = 123
 Usuario2 = "Gabriel"
 senha2 = 1234
 Usuario3 = "Marcia"
-senha3 = 12345
+senha3 = 123456
 tentativas = 0
 limite = 3
 
