@@ -1,46 +1,32 @@
-Usuario1 = "Rafael"
-senha1 = 123
-Usuario2 = "Gabriel"
-senha2 = 1234
-Usuario3 = "Marcia"
-senha3 = 12345
-tentativas = 0
-limite = 3
+# 🔐 Sistema de Login em Python
 
-user = input("informe o seu nome de usuario: ")
-userT = user.title()
+Bem-vindo ao repositório do meu **Sistema de Login**!  
+Este projeto foi desenvolvido como parte dos meus estudos em Python e tem como objetivo simular um sistema simples de autenticação de usuários no terminal.
 
-while tentativas < limite:
-    if userT == Usuario1:
-        password = int(input("Informe sua senha: "))
-        if password == senha1:
-            print("✅ Login bem-sucedido!")
-            break
-        else:
-            print("❌ Senha incorreta!")
-            tentativas += 1
+---
 
-    elif userT == Usuario2:
-        password = int(input("Informe sua senha: "))
-        if password == senha2:
-            print("✅ Login bem-sucedido!")
-            break
-        else:
-            print("❌ Senha incorreta!")
-            tentativas += 1
+## 📌 Funcionalidades
 
-    elif userT == Usuario3:
-        password = int(input("Informe sua senha: "))
-        if password == senha3:
-            print("✅ Login bem-sucedido!")
-            break
-        else:
-            print("❌ Senha incorreta!")
-            tentativas += 1
+- ✅ Login com verificação de senha
+- ✅ Armazenamento de dados em arquivo `.txt`
+- ✅ Estrutura modular e fácil de entender
+- ✅ Mensagens amigáveis para o usuário
 
-    else:
-        print("❌ Usuário não encontrado!")
-        break
+---
 
-if tentativas == limite:
-    print("⛔ Número máximo de tentativas alcançado. Acesso bloqueado.")
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.x**
+- Estruturas condicionais (`if`, `else`)
+- Laços (`while`, `for`)
+- Funções personalizadas
+- Validações básicas de entrada
+
+---
+
+## 🚀 Como Executar
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repo.git
+   cd seu-repo
